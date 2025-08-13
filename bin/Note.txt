@@ -1,0 +1,3 @@
+javac -d bin src\shared\FileData.java src\server\ClientHandler.java src\server\ChatServer.java src\client\ChatClient.java
+java -cp bin server.ChatServer
+java -cp bin client.ChatClient
